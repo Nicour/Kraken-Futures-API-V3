@@ -4,7 +4,6 @@ const utf8 = require('utf8');
 const qs = require('querystring');
 
 class KrakenFuturesApiV3 {
-
 	constructor(baseUrl, apiKey, apiSecret, timeout) {
 		this.baseUrl = baseUrl;
 		this.apiKey = apiKey;
