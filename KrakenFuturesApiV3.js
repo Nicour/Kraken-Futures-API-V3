@@ -3,7 +3,7 @@ const crypto = require('crypto');
 const utf8 = require('utf8');
 const qs = require('querystring');
 
-class CfRestApiV3 {
+class KrakenFuturesApiV3 {
 
 	constructor(baseUrl, apiKey, apiSecret, timeout) {
 		this.baseUrl = baseUrl;
