@@ -1,3 +1,5 @@
+const express = require('express');
+const router = express.Router();
 const kf = require('./KrakenFuturesApiV3');
 
 router.get('/example', async (req, res, next) => {
